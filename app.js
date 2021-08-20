@@ -83,7 +83,7 @@ let prom = ()=>{
 	});
 }
 prom().then((result)=>{
-	console.log(result);
+	console.log(result); // i can use those data in html
 }).catch((error)=>{
 	console.log(error);
 });
